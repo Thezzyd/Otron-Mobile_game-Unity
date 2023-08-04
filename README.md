@@ -27,7 +27,12 @@ Zaprojektowanie i wykonanie oprogramowania umożliwiającego połączenia ze sob
 * Dostępne dodatkowe tryby gry tj. Friendly Fire ON/OFF, NightMode ON/OFF
 
 ## Narzędzie i technologie
-Projekt gry wykonywany na silniku **Unity**, do zarządzania funkcjonalnościami związanymi z siecią/parowaniem graczy wykorzystany został „high level Networking API” - **Mirror Networking**. Skrypty pisane w **Microsoft Visual Studio**, wykorzystując język **C#**. Do wykonania modeli graficznych na potrzeby projektu wykorzystany został **Adobe Photoshop CC 2019**. Oprogramowanie jakie zostało wykorzystane do edycji plików audio to **Audacity**. Wszelkie efekty wizualne oparte zostały na **Particle System**, jak i również w małej części na **Shader Graph**, oba te narzędzia są dostępne w edytorze Unity.   
+* Projekt gry wykonywany na silniku **Unity**. 
+* Do zarządzania funkcjonalnościami związanymi z siecią/parowaniem graczy wykorzystany został „high level Networking API” **Mirror Networking**. 
+* Skrypty pisane w **Visual Studio Code**, wykorzystując język **C#**. 
+* Do wykonania modeli graficznych na potrzeby projektu wykorzystany został **Adobe Photoshop CC 2019**. 
+* Oprogramowanie jakie zostało wykorzystane do edycji plików audio to **Audacity**. 
+* Wszelkie efekty wizualne oparte zostały na **Particle System**, jak i również w małej części na **Shader Graph**, oba te narzędzia są dostępne w edytorze Unity.   
   
 ## Wymagania
 **Wymagania systemowe:**  
