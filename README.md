@@ -1,4 +1,4 @@
-# Otron-Mobile_game-Unity
+# Otron - Projekt mobilnej gry multiplayer
 Wykonana aplikacja na silniku Unity pozwala na grę w trybie rywalizacji dwóch osób łącząc się ze sobą poprzez Wi-Fi gdy znajdują się w tej samej sieci. Gra jest opatrzona w intuicyjny i przejrzysty interfejs graficzny umożliwiający swobodne korzystanie z wszystkich funkcjonalności jakie oferuje aplikacja. Sterowanie odbywa się za pomocą joysticka oraz joybuttona w oparciu o ekran dotykowy danego urządzenia. Gra jest osadzona w futurystycznym klimacie, w której to celem jest celu trafienie przeciwnika pociskiem  i tym samym skucie jego życia, unikając przy tym pocisków wystrzelonych przez naszego oponenta. Gra kończy się w momencie gdy jeden z graczy straci wszystkie swoje życia. Aplikacja ma na celu zapewnienia rozrywki użytkownikom.
 
 ## Cel projektu
