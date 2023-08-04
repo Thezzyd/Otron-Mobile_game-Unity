@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - POCISK
+  - BulletPlayer1
+  - BulletPlayer2
+  - Wall
+  - Player1
+  - Player2
+  - Player1Collider
+  - Player2Collider
+  - CannonBullet
+  - MovingCannon
+  - StationaryCannon
+  - P1CannonBullet
+  - P2CannonBullet
+  - BulletBarP1
+  - BulletBarP2
+  - SerwerButton1
+  - LobbyCanvas
+  - ReturnButton
+  - P1Respawn
+  - P2Respawn
+  - P1BulletBarSpawn
+  - P2BulletBarSpawn
+  - P1BarParent
+  - P2BarParent
+  - ReturnToLobby
+  - ReturnToMenu
+  - FoundServerButtonSpawnPoint
+  - HUD
+  - ServerNotFound
+  - WaitingText
+  - FoundServerButton
+  - PopupHandler
+  - P1Model
+  - P2Model
+  - GameModeSettings
+  - LaserSprite
+  - LaserParticles
+  - StationaryCannonP2
+  - LaserSpriteP1
+  - LaserSpriteP2
+  - LaserParticlesP1
+  - LaserParticlesP2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Wall
+  - PlayerCollider
+  - BulletPlayer1
+  - Cannon
+  - Player1
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 2671622089
+    locked: 0
