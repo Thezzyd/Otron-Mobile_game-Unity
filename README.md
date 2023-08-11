@@ -1,13 +1,13 @@
 # Otron - Projekt mobilnej gry multiplayer
-Wykonana aplikacja na silniku Unity pozwala na grę w trybie rywalizacji dwóch osób łącząc się ze sobą poprzez Wi-Fi gdy znajdują się w tej samej sieci. Gra jest opatrzona w intuicyjny i przejrzysty interfejs graficzny umożliwiający swobodne korzystanie z wszystkich funkcjonalności jakie oferuje aplikacja. Sterowanie odbywa się za pomocą joysticka oraz joybuttona w oparciu o ekran dotykowy danego urządzenia. Gra jest osadzona w futurystycznym klimacie, w której to celem jest celu trafienie przeciwnika pociskiem  i tym samym skucie jego życia, unikając przy tym pocisków wystrzelonych przez naszego oponenta. Gra kończy się w momencie gdy jeden z graczy straci wszystkie swoje życia. Aplikacja ma na celu zapewnienia rozrywki użytkownikom.
+Wykonana aplikacja na silniku Unity pozwala na grę w trybie rywalizacji dwóch osób łącząc się ze sobą poprzez Wi-Fi gdy znajdują się w tej samej sieci. Gra jest opatrzona w intuicyjny i przejrzysty interfejs graficzny umożliwiający swobodne korzystanie z wszystkich funkcjonalności jakie oferuje aplikacja. Sterowanie odbywa się za pomocą joystick'a oraz joybutton'a w oparciu o ekran dotykowy danego urządzenia. Gra jest osadzona w futurystycznym klimacie, w której to celem jest celu trafienie przeciwnika pociskiem  i tym samym skucie jego życia, unikając przy tym pocisków wystrzelonych przez naszego oponenta. Gra kończy się w momencie gdy jeden z graczy straci wszystkie swoje życia. Aplikacja ma na celu zapewnienia rozrywki użytkownikom.
 
 ## Cel projektu
 Zaprojektowanie i wykonanie oprogramowania umożliwiającego połączenia ze sobą dwóch użytkowników znajdujących się w tej samej sieci LAN, w celu wspólnej i równoległej gry w trybie rywalizacji na jednej mapie, z dwóch różnych urządzeń opartych na systemie Android.
 
 ## Cele w rozgrywce
-* Celem gry/ warunkiem wygranej jest skucie gracza grającego przeciw nam na drugim końcu mapy trzykrotnie oddając w jego kierunku celny strzał który skoliduje z obiektem reprezentującym gracza-oponenta.
-* Podczas rozgrywki trzeba uważać na odbijające się pociski od ścian, w związku z ciągłym ruchem ścian jest ciężkie do przewidzenia w którym kierunku odbije się pocisk.
-* Trzeba również uważać na trudności środowiska, między innymi na działka które będą próbowały skuć graczy po obu stronach.
+* Celem gry/ warunkiem wygranej jest skucie gracza grającego przeciw nam na drugim końcu mapy trzykrotnie oddając w jego kierunku celny strzał, który skoliduje z obiektem reprezentującym gracza-oponenta.
+* Podczas rozgrywki trzeba uważać na odbijające się pociski od ścian, w związku z ciągłym ruchem ścian jest ciężkie do przewidzenia, w którym kierunku odbije się pocisk.
+* Trzeba również uważać na trudności środowiska, między innymi na działka, które będą próbowały skuć graczy po obu stronach.
 
 ## Przykładowe zrzuty ekranu
 ![Screenshot-1](/screens/3.jpg)
@@ -20,7 +20,7 @@ Zaprojektowanie i wykonanie oprogramowania umożliwiającego połączenia ze sob
 * Możliwość „Hostowania” gry jak i dołączania do istniejącego w sieci serwera,
 * Automatyczne wyszukiwanie dostępnego serwera w sieci LAN (Network Discovery),
 * Lobby umożliwiające równoczesne wystartowanie gry na obu urządzeniach,
-* Kontrola graczy za pomocą joystick`a (poruszanie się, oddanie strzału),
+* Kontrola graczy za pomocą joystick'a (poruszanie się, oddanie strzału),
 * Możliwość gry z muzyką i dźwiękami lub bez.
 * System żyć, definiujący kto wygrał daną rozgrywkę,
 * Graficzne liczniki przeładowania graczy po oddaniu strzału,
@@ -69,7 +69,7 @@ Przycisk uruchamiający sekwencję przy zdarzeniu „onClick” odpowiedzialną 
 - SceneTransitionCanvas – uruchamia animację reprezentujące płynne przejścia pomiędzy scenami
 - LevelManager – zawiera zestaw „ogólnych” zmiennych jak i  funkcji, do których często się odwołuje z pozycji innych klas.
 - NetworkManagerProjekt, ServerResponse, ServerRequest, NetworkBehaviour – zarządzanie zdarzeniami związanymi z siecią/połączeniem, umożliwia implementację funkcjonalności związanych z „multiplayerem”.
-- NetworkDiscovery – umożliwia wychwycenie dostępnych serwerów w sieci lan i pobrania ich adresów ip, w celu późniejszego nawiązania połączenia z nimi.
+- NetworkDiscovery – umożliwia wychwycenie dostępnych serwerów w sieci LAN i pobrania ich adresów IP, w celu późniejszego nawiązania połączenia z nimi.
 - Connect – zestaw funkcji dla przycisków z sekcji lobby (hostowanie, wyszukiwanie dostępnych serwerów oraz łączenie się z nimi)
 - LobbyCanvas – zestaw funkcji zarządzających ustawieniami rozgrywki, równoległego wystartowania gry na obu urządzeniach, zarządzanie obiektami znajdującymi się w sekcji lobby.
 - PlayerControl- skrypt zaczepiony do obiektu gracza, pozwala na poruszanie się, dokonywanie strzału, detekcja kolizji..
